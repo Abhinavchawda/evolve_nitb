@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "value": 1,
+        "image": "/Team/AtlaniBoss.jpg",
+        "name": "Yash Kumar Atlani",
+        "post":  "President"
+    },
+    {
+        "id": 2,
+        "value": 1,
+        "image": "/Team/AyushBoss.jpg",
+        "name": "Ayush Jain",
+        "post":  "Vice President"
+    },
+    {
+        "id": 2,
+        "value": 1,
+        "image": "/Team/AmanBoss.jpg",
+        "name": "Aman Sharma",
+        "post":  "Technical Head"
+    },
+    {
+        "id": 3,
+        "value": 1,
+        "image": "/Team/AryanBoss.jpg",
+        "name": "Aryan Boss",
+        "post":  "Technical Head"
+    },
+    {
+        "id": 4,
+        "value": 1,
+        "image": "/Team/AbhinavChawda2.jpg",
+        "name": "Abhinav Chawda",
+        "post":  "Web Developer"
+    }
+]
