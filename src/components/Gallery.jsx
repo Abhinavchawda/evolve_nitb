@@ -3,6 +3,7 @@ import Header from './Header'
 import photos from '../assets/galleryFile.json'
 
 const Gallery = () => {
+    let index = 0;
     return (
         <div>
             <div className='achievements min-h-[100vh] text-white overflow-hidden'>
@@ -14,7 +15,7 @@ const Gallery = () => {
 
                     {
                         photos.map((i)=>(
-                            <img src={i.image} className="mb-0 lg:mx-0 md:h-[300px] md:w-[350px]  overflow-hidden flex justify-center items-center hover:scale-[105%] transition-transform duration-300 ease-in-out rounded-xl"></img>
+                            <img key={index++} src={i.image} className="mb-0 lg:mx-0 md:h-[300px] md:w-[350px]  overflow-hidden flex justify-center items-center hover:scale-[105%] transition-transform duration-300 ease-in-out rounded-xl"></img>
                         ))
                     }
 

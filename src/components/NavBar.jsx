@@ -22,18 +22,23 @@ const NavBar = () => {
     }
 
     // var sticky = bar_ref.offsetTop;
-    // window.onscroll = function() {stickyNavBar()};
-    // const stickyNavBar = () => {
-    //     if (window.scrollY >= sticky) {
-    //         bar_ref.classList.add("sticky")
-    //     } else {
-    //         bar_ref.classList.remove("sticky");
-    //     }
-    //   }
+    window.onscroll = function() {stickyNavBar()};
+    const stickyNavBar = () => {
+        let temp = document.getElementById("box");
+        if (window.scrollY >= 90) {
+            temp.classList.add("fixed");
+            temp.classList.add("scale-x-105");
+        } else {
+            temp.classList.remove("fixed");
+            temp.classList.remove("scale-x-105");    
+        }
+      }
 
     return (
-        <div ref={bar_ref} className='w-[90%] mx-auto mt-5 border border-[rgb(71,255,47)] hover:border-transparent rounded-3xl'>
-            <div className='flex items-center justify-between h-20 bg-[rgb(20,20,20,0.4)] rounded-3xl'>
+        <div className='flex justify-center items-center'>
+
+        <div ref={bar_ref} id='box' className='w-[93%] mt-5 border border-[rgb(71,255,47)] hover:border-transparent rounded-3xl backdrop-blur-sm fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
+            <div className='flex items-center justify-between h-20  rounded-3xl'>
                 <div className='text-[rgb(17,42,42)] font-bold text-3xl mx-5 animate-pulse'>
                     <img src='/Evolve_logo.png' height={50} width={75}></img>
                 </div>
@@ -61,6 +66,7 @@ const NavBar = () => {
                     <li className='rounded-xl text-black bg-[rgb(71,255,47)] font-semibold px-3 py-1 text-center'><a href='http://google.com'>E-Cycle</a></li>
                 </ul>
             </div>
+        </div>
         </div>
     )
 }
