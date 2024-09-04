@@ -16,7 +16,7 @@ import Footer from './components/Footer'
 function App() {
   
   return (
-    <div className='main m-0 p-0 bg-gradient-to-bl from-[rgb(20,50,50)] to-[rgb(3,3,7)] min-h-[100vh] font-serif'>
+    <div className='main m-0 p-0 bg-black min-h-[100vh] font-serif'>
       
       <SideNav />
 

@@ -39,9 +39,9 @@ const NavBar = () => {
                 </div>
 
                 <div>
-                    <img ref={icon_ref} className='px-8 invert md:hidden text-black' src={bar_logo} onClick={showMenu} alt='menu'></img>
+                    <img ref={icon_ref} className='px-8 invert lg:hidden text-black' src={bar_logo} onClick={showMenu} alt='menu'></img>
                     <div>
-                        <ul ref={btn_ref} className='invisible md:hidden bg-[rgb(20,20,20,0.4)] text-white rounded-2xl p-5 px-8 absolute right-5 top-28 text-md'>
+                        <ul ref={btn_ref} className='invisible lg:hidden bg-[rgb(20,20,20,0.4)] text-white rounded-2xl p-5 px-8 absolute right-5 top-28 text-md'>
                             <li className='rounded-xl font-semibold text-[rgb(71,255,47)] m-2 flex justify-center py-1 px-2'><a href='#main'><img className='invert' src={home_logo} alt='Home'></img></a></li>
                             <li className='rounded-xl font-semibold text-[rgb(71,255,47)] m-2 text-center py-1 px-2'><a href='#about'>About</a></li>
                             <li className='rounded-xl font-semibold text-[rgb(71,255,47)] m-2 text-center py-1 px-2'><a href='#events'>Events</a></li>
@@ -52,7 +52,7 @@ const NavBar = () => {
                     </div>
                 </div>
 
-                <ul className='hidden md:flex items-center gap-10 m-0 p-5'>
+                <ul className='hidden lg:flex items-center gap-10 m-0 p-5'>
                     <li className='rounded-xl text-[rgb(71,255,47)] font-semibold px-3 py-1  hover:text-blue-500'><a href='#main'>Home</a></li>
                     <li className='rounded-xl text-[rgb(71,255,47)] font-semibold px-3 py-1  hover:text-blue-500'><a href='#about'>About</a></li>
                     <li className='rounded-xl text-[rgb(71,255,47)] font-semibold px-3 py-1  hover:text-blue-500'><a href='#events'>Events</a></li>
