@@ -5,7 +5,7 @@ const SideNav = () => {
     <div className="flex flex-col gap-1 z-10 bg-slate-200/5 fixed right-0 bottom-[34.13%] justify-center items-center w-10 p-6 rounded-l-3xl border-r-0">
       <div className="m-2">
         <svg
-          className="fill-green-600 h-6 w-6 hover:fill-slate-200 hover:scale-110"
+          className="fill-[rgb(71,255,47)] h-6 w-6 hover:fill-slate-200 hover:scale-110"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,7 +26,7 @@ const SideNav = () => {
       </div>
       <div className="m-2">
         <svg
-          className="fill-green-600 h-6 w-6 hover:fill-slate-200 hover:scale-110"
+          className="fill-[rgb(71,255,47)] h-6 w-6 hover:fill-slate-200 hover:scale-110"
           width="100px"
           height="100px"
           viewBox="0 0 24 24"
@@ -47,7 +47,7 @@ const SideNav = () => {
       </div>
       <div className="m-2">
         <svg
-          className="fill-green-600 h-6 w-6 hover:fill-slate-200 hover:scale-110"
+          className="fill-[rgb(71,255,47)] h-6 w-6 hover:fill-slate-200 hover:scale-110"
           width="100px"
           height="100px"
           viewBox="0 -3 20 20"
@@ -72,7 +72,7 @@ const SideNav = () => {
       </div>
       <div className="m-2">
         <svg
-          className="fill-green-600 h-6 hover:fill-slate-200 hover:scale-110"
+          className="fill-[rgb(71,255,47)] h-6 hover:fill-slate-200 hover:scale-110"
           width="100px"
           height="100px"
           viewBox="-5 0 20 20"

@@ -7,12 +7,12 @@ const Event = () => {
     return (
         <div className="Eventcontent lg:flex my-4 mx-auto">
 
-            {
+            {/* {
                 EventFile.map((item) => 
                     (
                     <EventCard id={item.id} image={item.image} content={item.content}/>
                 ))
-            }
+            } */}
             
             {/* <div className="left-part w-5/6 sm:w-3/6 lg:w-2/6 mx-auto">
                 <div className="text mx-auto lg:mx-3 my-5 p-5 font-serif rounded">

@@ -14,7 +14,9 @@ const Team = () => {
   const settings = {
     dots: true,
     infinite: 1,
-    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
 

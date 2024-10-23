@@ -18,7 +18,7 @@ const TeamCard = (card) => {
 
     return (
         <div className='pt-10'>
-            <div className="mx-auto mb-10 lg:mx-0 w-[250px] h-[350px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-[rgb(71,255,47)] hover:scale-[110%] hover:translate-x-2 transition-transform duration-300 ease-in-out shadow-lg">
+            <div className="mx-auto mb-10 lg:mx-0 w-[250px] h-[350px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-[rgb(71,255,47)] hover:scale-[110%] hover:translate-x-2 transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgb(71,255,47)]">
                 <div className='flex relative justify-center items-center'
                     onMouseEnter={show} onMouseLeave={hide} 
                 >

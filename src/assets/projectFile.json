@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "image": "robo2.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNS5Y_R9e4qoTF8C_inOfB-OeMKlL_6Webmw&s",
         "PName": "Electric Bycle",
         "PDetails": "Our E-Cycle Project is dedicated to promoting sustainable transportation by designing and building eco-friendly electric bicycles. This initiative focuses on innovation in green technology, reducing carbon footprints, and encouraging a healthier, more sustainable lifestyle on campus. Through hands-on learning and collaboration, our team is committed to creating efficient, reliable e-cycles that can serve as a model for future sustainable transport solutions."
     },
     {
         "id": 2,
-        "image": "robo2.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyrQOm8XoJvkPXe2vyxN5cEIw8zNNx3rExVQ&s",
         "PName": "Self Balancing Robot",
         "PDetails": "The goal of this project was to design and create an autonomous self-balancing robot using the Arduino processor. Although the project achieved success, it demonstrated the fascinating aspect of balancing an inherently unstable system."
     },
     {
         "id": 3,
-        "image": "robo2.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZIs7XmR5BX3x7XQ2JEI63tyD3zJv566zVHQ&s",
         "PName": "RFID Door Locking System",
         "PDetails": "Designed and implemented an RFID-based locking system, integrating RFID technology to provide secure access control Tools & technologies used: Arduino, Firebase, NodeMcu, RFID, I2C Developed hardware and software components to enable efficient authentication and locking mechanisms. Project involved conceptualization, prototyping, and testing phases, demonstrating proficiency in system design and implementation."
     },
     {
         "id": 4,
-        "image": "robo2.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGc7aqolvUQ91kF7GYxy-w1EN_ob5-wYpMg&s",
         "PName": "Ionic Thrusters",
         "PDetails": "The Ionic Thrusters Project delves into advanced propulsion technology by developing and testing ionic thrusters for potential aerospace applications. These engines, which generate thrust by ionizing and accelerating particles, offer a promising avenue for efficient and sustainable space travel. Our team is focused on exploring the physics behind ion propulsion, optimizing thrust efficiency, and pushing the boundaries of modern propulsion systems. This project aims to contribute to the future of space exploration with cutting-edge research and innovative engineering solutions."
     },
     {
         "id": 5,
-        "image": "robo2.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_CbRrw9a9Kgp0LxjLyCp4nMK5peqgi48LA&s",
         "PName": "Glider",
         "PDetails": "The Gliders Project explores the science of flight by designing and constructing non-powered gliders. The team applies principles of aerodynamics and engineering to create efficient and innovative glider models. This project aims to enhance understanding of flight mechanics, inspire creativity, and push the boundaries of lightweight, sustainable aviation. Through experimentation and collaboration, we strive to achieve optimal flight performance and advance our knowledge in this field."
     }
