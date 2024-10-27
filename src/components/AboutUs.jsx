@@ -9,7 +9,7 @@ const AboutUs = () => {
                     <Header title="About Us"></Header>
 
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-10 my-16'>
-                        <div className='image w-3/4 lg:w-[40%] hover:scale-110 transition-transform duration-300 ease-in-out'>
+                        <div data-aos="fade-right" offset="100" className='image w-3/4 lg:w-[40%] hover:scale-110 transition-transform duration-300 ease-in-out'>
                             <img src="/About/withDir.jpg" className='rounded-2xl md:h-[350px] md:w-[500px] mx-auto'></img>
                         </div>
 

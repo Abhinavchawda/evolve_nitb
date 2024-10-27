@@ -15,11 +15,11 @@ const Team = () => {
     dots: true,
     infinite: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2500,
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
-
+    
     responsive: [
       {
         breakpoint: 1600,
@@ -52,7 +52,7 @@ const Team = () => {
     <div className='lg:min-h-[100vh] text-white overflow-hidden my-20'>
       <Header title="Team Evolve"></Header>
 
-      <div className='w-[80vw] mx-auto mt-10'>
+      <div data-aos="zoom-in" className='w-[80vw] mx-auto mt-10'>
         <h6 className='text-xl'>Final Year Team</h6>
         <Slider {...settings1} >
           {team.FinalYear.map((t) => (
@@ -62,7 +62,7 @@ const Team = () => {
         </Slider>
       </div>
 
-      <div className='w-[80vw] mx-auto mt-10'>
+      <div data-aos="zoom-in" className='w-[80vw] mx-auto mt-10'>
         <h6 className='text-xl'>Pre Final Year Team</h6>
         <Slider {...settings1} >
           {team.PreFinalYear.map((t) => (

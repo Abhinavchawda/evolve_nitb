@@ -11,7 +11,9 @@ const Gallery = () => {
 
                 {/* <div className='border border-2px rounded-lg border-green-500 m-2'> */}
 
-                <div className='mx-5 my-16 flex flex-wrap justify-center items-center gap-10'>
+                <div 
+                data-aos="fade-up"
+                className='mx-5 my-16 flex flex-wrap justify-center items-center gap-10'>
 
                     {
                         photos.map((i)=>(

@@ -9,7 +9,9 @@ const Achievements = () => {
 
                 <div className='flex flex-col lg:flex-row justify-center items-center gap-10 my-20'>
                     <div className='image w-3/4 lg:w-[40%] hover:scale-110 transition-transform duration-300 ease-in-out'>
-                        <img src="Achievements/trophy.jpg" className='rounded-2xl md:h-[350px] md:w-[500px] mx-auto'></img>
+                        <img 
+                        data-aos="fade-right"
+                         src="Achievements/trophy.jpg" className='rounded-2xl md:h-[350px] md:w-[500px] mx-auto'></img>
                     </div>
 
                     <div className='written-content w-3/4 lg:w-[40%] text-center'>

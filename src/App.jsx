@@ -13,6 +13,15 @@ import AboutUs from './components/AboutUs'
 import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 
+//AOS animations 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+  duration: "1000",
+  offset: "200"
+});
+
 function App() {
 
   return (
