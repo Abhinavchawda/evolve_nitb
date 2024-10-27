@@ -1,5 +1,5 @@
-import React from 'react'
-import Header from './Header'
+import React, { useRef } from 'react';
+import Header from './Header';
 
 const AboutUs = () => {
     return (
@@ -31,4 +31,4 @@ const AboutUs = () => {
     )
 }
 
-export default AboutUs
+export default AboutUs;

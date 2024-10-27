@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import Header from './Header'
-import TeamCard from './TeamCard'
+import React, { useEffect, useState } from 'react';
+import Header from './Header';
+import TeamCard from './TeamCard';
 
 import Slider from "react-slick";
 
@@ -8,10 +8,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import team from '../assets/teamFile.json'
+import team from '../assets/teamFile.json';
 
 const Team = () => {
-  const settings = {
+  const settings1 = {
     dots: true,
     infinite: 1,
     autoplay: true,
@@ -53,8 +53,19 @@ const Team = () => {
       <Header title="Team Evolve"></Header>
 
       <div className='w-[80vw] mx-auto mt-10'>
-        <Slider {...settings} >
-          {team.map((t) => (
+        <h6 className='text-xl'>Final Year Team</h6>
+        <Slider {...settings1} >
+          {team.FinalYear.map((t) => (
+            <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} />
+          ))
+          }
+        </Slider>
+      </div>
+
+      <div className='w-[80vw] mx-auto mt-10'>
+        <h6 className='text-xl'>Pre Final Year Team</h6>
+        <Slider {...settings1} >
+          {team.PreFinalYear.map((t) => (
             <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} />
           ))
           }

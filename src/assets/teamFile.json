@@ -1,37 +1,111 @@
-[
-    {
-        "id": 0,
-        "value": 1,
-        "image": "/Team/AtlaniBoss.jpg",
-        "name": "Yash Kumar Atlani",
-        "post":  "President"
-    },
-    {
-        "id": 2,
-        "value": 1,
-        "image": "/Team/AyushBoss.jpg",
-        "name": "Ayush Jain",
-        "post":  "Vice President"
-    },
-    {
-        "id": 2,
-        "value": 1,
-        "image": "/Team/AmanBoss.jpg",
-        "name": "Aman Sharma",
-        "post":  "Technical Head"
-    },
-    {
-        "id": 3,
-        "value": 1,
-        "image": "/Team/AryanBoss.jpg",
-        "name": "Aryan Boss",
-        "post":  "Technical Head"
-    },
-    {
-        "id": 4,
-        "value": 1,
-        "image": "/Team/AbhinavChawda.jpg",
-        "name": "Abhinav Chawda",
-        "post":  "Web Developer"
-    }
-]
+{
+    "FinalYear": [
+        {
+            "id": 0,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962054/evolve_web/FinalYear/MrYashAtlani.jpg",
+            "name": "Yash Kumar Atlani",
+            "post": "Student Coordinator"
+        },
+        {
+            "id": 1,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962095/evolve_web/FinalYear/MrAyushJain.jpg",
+            "name": "Ayush Jain",
+            "post": "Student Co-Coordinator"
+        },
+        {
+            "id": 2,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962182/evolve_web/FinalYear/MrAmanSharma.jpg",
+            "name": "Aman Sharma",
+            "post": "Technical Head"
+        },
+        {
+            "id": 3,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962144/evolve_web/FinalYear/MrAryanBarghal.jpg",
+            "name": "Aryan Bargal",
+            "post": "Technical Head"
+        }
+    ],
+    "PreFinalYear": [
+        {
+            "id": 4,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962310/evolve_web/PreFinalYear/MrAbhinavChawda.jpg",
+            "name": "Abhinav Chawda",
+            "post": "Core Member"
+        },
+        {
+            "id": 5,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Abhinav Singh",
+            "post": "Core Member"
+        },
+        {
+            "id": 6,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Akshat Agarwal",
+            "post": "Core Member"
+        },
+        {
+            "id": 7,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Anant Srivastava",
+            "post": "Core Member"
+        },
+        {
+            "id": 8,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Animesh Singh",
+            "post": "Core Member"
+        },
+        {
+            "id": 9,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Krishna Gupta",
+            "post": "Core Member"
+        },
+        {
+            "id": 10,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Priyanshi Taram",
+            "post": "Core Member"
+        },
+        {
+            "id": 11,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Rohit Dudve",
+            "post": "Core Member"
+        },
+        {
+            "id": 12,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Shnkarshan Dwivedi",
+            "post": "Core Member"
+        },
+        {
+            "id": 13,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Shivi Mishra",
+            "post": "Core Member"
+        },
+        {
+            "id": 14,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Sweksha Vats",
+            "post": "Core Member"
+        }
+    ]
+}

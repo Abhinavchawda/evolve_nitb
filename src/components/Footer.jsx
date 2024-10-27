@@ -78,7 +78,7 @@ function Footer() {
             </form>
           </div>
         </div>
-        <div className="mt-4 text-center">
+        <div className="my-4 text-center">
           <div className="flex justify-center gap-2 my-2">
 
             <a href="#" className="text-blue-500">
