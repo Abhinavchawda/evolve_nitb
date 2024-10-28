@@ -40,7 +40,7 @@
         {
             "id": 5,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099447/evolve_web/PreFinalYear/MrAbhinavSingh.jpg",
             "name": "Abhinav Singh",
             "post": "Core Member"
         },
@@ -80,6 +80,13 @@
             "post": "Core Member"
         },
         {
+            "id": 10,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099365/evolve_web/PreFinalYear/MrPriyanshuKumar.jpg",
+            "name": "Priyanshu Kumar",
+            "post": "Core Member"
+        },
+        {
             "id": 11,
             "value": 1,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
@@ -87,10 +94,17 @@
             "post": "Core Member"
         },
         {
-            "id": 12,
+            "id": 11,
             "value": 1,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
-            "name": "Shnkarshan Dwivedi",
+            "name": "Rohit Kumar Yadav",
+            "post": "Core Member"
+        },
+        {
+            "id": 12,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099251/evolve_web/PreFinalYear/MrShankarshanDwivedi.jpg",
+            "name": "Shankarshan Dwivedi",
             "post": "Core Member"
         },
         {
