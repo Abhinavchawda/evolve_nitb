@@ -53,7 +53,7 @@ const Team = () => {
       <Header title="Team Evolve"></Header>
 
       <div data-aos="zoom-in" className='w-[80vw] mx-auto mt-10'>
-        <h6 className='text-xl'>Final Year Team</h6>
+        <h6 className='text-xl'>Founding Members</h6>
         <Slider {...settings1} >
           {team.FinalYear.map((t) => (
             <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} />

@@ -4,59 +4,97 @@
             "id": 0,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962054/evolve_web/FinalYear/MrYashAtlani.jpg",
-            "name": "Yash Kumar Atlani",
-            "post": "Student Coordinator"
+            "name": "Yash Kumar Atlani"
         },
         {
             "id": 1,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962095/evolve_web/FinalYear/MrAyushJain.jpg",
-            "name": "Ayush Jain",
-            "post": "Student Co-Coordinator"
+            "name": "Ayush Jain"
         },
         {
             "id": 2,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962182/evolve_web/FinalYear/MrAmanSharma.jpg",
-            "name": "Aman Sharma",
-            "post": "Technical Head"
+            "name": "Aman Sharma"
         },
         {
             "id": 3,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962144/evolve_web/FinalYear/MrAryanBarghal.jpg",
-            "name": "Aryan Bargal",
-            "post": "Technical Head"
+            "name": "Aryan Bargal"
         }
     ],
     "PreFinalYear": [
-        {
-            "id": 4,
-            "value": 1,
-            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962310/evolve_web/PreFinalYear/MrAbhinavChawda.jpg",
-            "name": "Abhinav Chawda",
-            "post": "Core Member"
-        },
-        {
-            "id": 5,
-            "value": 1,
-            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099447/evolve_web/PreFinalYear/MrAbhinavSingh.jpg",
-            "name": "Abhinav Singh",
-            "post": "Core Member"
-        },
         {
             "id": 6,
             "value": 1,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
             "name": "Akshat Agarwal",
-            "post": "Core Member"
+            "post": "President"
+        },
+        {
+            "id": 4,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962310/evolve_web/PreFinalYear/MrAbhinavChawda.jpg",
+            "name": "Abhinav Chawda",
+            "post": "Vice President"
         },
         {
             "id": 7,
             "value": 1,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
             "name": "Anant Srivastava",
-            "post": "Core Member"
+            "post": "Vice President"
+        },
+        {
+            "id": 5,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099447/evolve_web/PreFinalYear/MrAbhinavSingh.jpg",
+            "name": "Abhinav Singh",
+            "post": "Technical Head"
+        },
+        {
+            "id": 12,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099251/evolve_web/PreFinalYear/MrShankarshanDwivedi.jpg",
+            "name": "Shankarshan Dwivedi",
+            "post": "Technical Head"
+        },
+        {
+            "id": 13,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Shivi Mishra",
+            "post": "Technical Head"
+        },
+        {
+            "id": 14,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Sweksha Vats",
+            "post": "Project Management Head"
+        },
+        {
+            "id": 14,
+            "value": 1,
+            "image": "",
+            "name": "Pashupatinath Soni",
+            "post": "Project Management Head"
+        },
+        {
+            "id": 9,
+            "value": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "name": "Krishna Gupta",
+            "post": "Event Management Head"
+        },
+        {
+            "id": 10,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099365/evolve_web/PreFinalYear/MrPriyanshuKumar.jpg",
+            "name": "Priyanshu Kumar",
+            "post": "Event Management Head"
         },
         {
             "id": 8,
@@ -66,25 +104,11 @@
             "post": "Core Member"
         },
         {
-            "id": 9,
-            "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
-            "name": "Krishna Gupta",
-            "post": "Core Member"
-        },
-        {
             "id": 10,
             "value": 1,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
             "name": "Priyanshi Taram",
-            "post": "Core Member"
-        },
-        {
-            "id": 10,
-            "value": 1,
-            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099365/evolve_web/PreFinalYear/MrPriyanshuKumar.jpg",
-            "name": "Priyanshu Kumar",
-            "post": "Core Member"
+            "post": "Design Head"
         },
         {
             "id": 11,
@@ -98,27 +122,6 @@
             "value": 1,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
             "name": "Rohit Kumar Yadav",
-            "post": "Core Member"
-        },
-        {
-            "id": 12,
-            "value": 1,
-            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099251/evolve_web/PreFinalYear/MrShankarshanDwivedi.jpg",
-            "name": "Shankarshan Dwivedi",
-            "post": "Core Member"
-        },
-        {
-            "id": 13,
-            "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
-            "name": "Shivi Mishra",
-            "post": "Core Member"
-        },
-        {
-            "id": 14,
-            "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
-            "name": "Sweksha Vats",
             "post": "Core Member"
         }
     ]
