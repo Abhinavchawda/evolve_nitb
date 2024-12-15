@@ -1,40 +1,19 @@
-// import React from 'react'
+import React from 'react';
 
-// const EventCard = (card) => {
-//     return (
-//         <div className="card mx-auto mb-20 lg:mx-0 sm:w-[410px] sm:h-[231px] border border-[rgb(71,255,47)] rounded-3xl hover:border-[3px] overflow-hidden">
-//             <img src={card.source} alt="event"></img>
-//         </div>
-//     )
-// }
+const EventCard = ({ title, image, content }) => {
+  return (
+    <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div class="h-96 w-90">
+        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={image} alt="" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <h1 class="font-dmserif text-3xl font-bold text-white">{title}</h1>
+        <p class="mb-3 text-xs italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">{content}</p>
+        {/* <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button> */}
+      </div>
+    </div>
+  );
+};
 
-import React, { useRef } from 'react'
-
-const EventCard = (Event) => {
-    const detailsRef = useRef();
-
-    const showDetails = () => {
-        detailsRef.current.style.display = "flex";
-    }
-    const hideDetails = () => {
-        detailsRef.current.style.display = "none";
-    }
-    return (
-        <div
-            className="card my-16 sm:my-[100px] mx-auto sm:mx-10 w-[80vw] sm:w-[410px] bg-[rgb(3,2,14)] hover:bg-[rgb(0,0,0)] border border-transparent rounded-3xl hover:border-[rgb(71,255,47)] overflow-hidden  text-white shadow-lg transition-transform duration-300 ease-in-out"
-            onMouseEnter={showDetails} onMouseLeave={hideDetails}
-        >
-
-            <div className="pic"><img src={Event.image} alt="event" className="w-full h-64 object-cover rounded-t-3xl"></img></div>
-
-            <div className="Pname text-center my-5 p-2 text-3xl text-cyan-400">{Event.name}</div>
-
-            <div className="Pdetail text-center m-5 p-5 overflow-auto max-h-[250px] hidden" ref={detailsRef}>
-                {Event.content}
-            </div>
-        </div>
-    )
-}
-
-export default EventCard
-
+export default EventCard;
