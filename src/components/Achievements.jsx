@@ -19,8 +19,8 @@ const Achievements = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -28,9 +28,9 @@ const Achievements = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -52,7 +52,7 @@ const Achievements = () => {
             {data.map((d, index) => (
               <div
                 key={index}
-                className="third mx-auto mb-10 lg:mx-0 w-[250px] h-[550px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-[rgb(71,255,47)] hover:scale-[110%] hover:translate-x-2 transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgb(71,255,47)]"
+                className="third mx-auto mb-10 lg:mx-0 w-[250px] h-[450px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-[rgb(71,255,47)] hover:scale-[110%] hover:translate-x-2 transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgb(71,255,47)]"
               >
                 <div className="fourth rounded-t-xl bg-indigo-500 flex justify-center items-center">
                   <img src={d.img} alt={d.name} className="h-[242px] w-full" />
