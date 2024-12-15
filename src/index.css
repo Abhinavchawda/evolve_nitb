@@ -1,5 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour+Convergence&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour+Convergence&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+/* .first {
+  height : 500px;
+} */
+
+.text-center {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.third {
+  border: 2px  rgb(71,255,47) solid;
+}
