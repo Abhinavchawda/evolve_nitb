@@ -24,7 +24,7 @@ const NavBar = () => {
     window.onscroll = function() {stickyNavBar()};
     const stickyNavBar = () => {
         let temp = document.getElementById("box");
-        if (window.scrollY >= 90) {
+        if (window.scrollY >= 100) {
             temp.classList.add("fixed");
             temp.classList.add("scale-x-95");
         } else {
@@ -32,12 +32,22 @@ const NavBar = () => {
             temp.classList.remove("scale-x-95");    
         }
       }
+    window.onscroll = function() {mobNav()};
+    const mobNav = () => {
+        let temp = document.getElementById("box");
+        if(btn_ref.current.style.visibility == "visible"&&window.scrollY >= 130) {
+            btn_ref.current.style.visibility = "hidden"
+            icon_ref.current.src = bar_logo;
+        }
+      }
+
+      
 
     return (
         <div className='flex justify-center items-center'>
 
-        <div ref={bar_ref} id='box' className='w-[93%] mt-5 border border-transparent hover:border-[rgb(71,255,47)] rounded-3xl backdrop-blur-lg fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
-            <div className='flex items-center justify-between h-20  rounded-3xl'>
+        <div ref={bar_ref} id='box' className='w-[93%] mt-5 border border-transparent hover:border-[rgb(71,255,47)] rounded-2xl backdrop-blur-lg fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
+            <div className='flex items-center justify-between h-20  rounded-2xl'>
                 <div className='text-[rgb(17,42,42)] font-bold text-3xl mx-5 animate-pulse ml-10'>
                     <img src='/Evolve_logo.png' height={50} width={75}></img>
                 </div>
@@ -45,11 +55,12 @@ const NavBar = () => {
                 <div>
                     <img ref={icon_ref} className='px-8 invert lg:hidden text-black' src={bar_logo} onClick={showMenu} alt='menu'></img>
                     <div>
-                        <ul ref={btn_ref} className='invisible lg:hidden bg-[rgb(20,20,20,0.4)] text-white rounded-2xl p-5 px-8 absolute right-5 top-28 text-md'>
-                            <li className='rounded-xl font-semibold text-border-[rgb(71,255,47)] m-2 flex justify-center py-1 px-2'><a href='#main'><img className='invert' src={home_logo} alt='Home'></img></a></li>
-                            <li className='rounded-xl font-semibold text-[rgb(71,255,47)] m-2 text-center py-1 px-2'><a href='#about'>About</a></li>
-                            <li className='rounded-xl font-semibold text-[rgb(71,255,47)] m-2 text-center py-1 px-2'><a href='#events'>Events</a></li>
-
+                        <ul ref={btn_ref} className='border-[rgb(71,255,47)] invisible lg:hidden rounded-2xl backdrop-blur-lg mobNav'>
+                    <li className='rounded-xl  font-semibold text-border-[rgb(71,255,47)] m-2 flex justify-center py-1 px-2'><a href='#main'><img className='invert' src={home_logo} alt='Home'></img></a></li>
+                    <li className='rounded-xl  font-semibold px-3 py-1  hover:text-[rgb(71,255,47)]'><a href='#about'>About</a></li>
+                    <li className='rounded-xl  font-semibold px-3 py-1  hover:text-[rgb(71,255,47)]'><a href='#events'>Events</a></li>
+                    <li className='rounded-xl  font-semibold px-3 py-1  hover:text-[rgb(71,255,47)]'><a href='#projects'>Projects</a></li>
+                    <li className='rounded-xl  font-semibold px-3 py-1  hover:text-[rgb(71,255,47)]'><a href='#contact'>Contact</a></li>
                         </ul>
                     </div>
                 </div>
