@@ -21,18 +21,15 @@ const NavBar = () => {
     }
 
     // var sticky = bar_ref.offsetTop;
-    window.onscroll = function() {stickyNavBar()};
+    window.onscroll = function() {stickyNavBar(),mobNav()};
     const stickyNavBar = () => {
         let temp = document.getElementById("box");
-        if (window.scrollY >= 100) {
-            temp.classList.add("fixed");
+        if (window.scrollY >= 90) {
             temp.classList.add("scale-x-95");
         } else {
-            temp.classList.remove("fixed");
             temp.classList.remove("scale-x-95");    
         }
       }
-    window.onscroll = function() {mobNav()};
     const mobNav = () => {
         let temp = document.getElementById("box");
         if(btn_ref.current.style.visibility == "visible"&&window.scrollY >= 130) {
