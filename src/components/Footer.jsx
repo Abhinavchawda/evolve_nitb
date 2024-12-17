@@ -130,7 +130,7 @@ function Footer() {
       {isModalOpen && (
         
         <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
-          <div className="h-screen overflow-auto">
+          <div className="h-screen w-[90vw] overflow-auto">
             <Devs />
           </div>
           
