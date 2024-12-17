@@ -13,7 +13,7 @@ function Devs() {
                     <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="animate-pulse font-bold text-[rgb(71,255,47)]">4th year</h1>
                         <div className="flex flex-col justify-center items-center gap-3">
-                            <img src="../public/devs/4th1.jpg" alt="Image 1" className="h-72 w-72 object-cover md:w-52 md:h-52 rounded-lg max-w-full" />
+                            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FElon_Musk&psig=AOvVaw2SLEDF1qwDly-qvj7JONSX&ust=1734527745085000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjJncLxrooDFQAAAAAdAAAAABAE" alt="Image 1" className="h-72 w-72 object-cover md:w-52 md:h-52 rounded-lg max-w-full" />
                             <p className="text-xs">Aryan Bargal</p>
                         </div>
                     </div>
