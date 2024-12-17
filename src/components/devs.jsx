@@ -5,7 +5,7 @@ function Devs() {
         <div className="flex justify-center items-center bg-transparent text-white">
 
 
-            <div className="flex flex-col justify-center items-center gap-4 p-6 backdrop-blur-lg border-transparent rounded-lg shadow-lg md:gap-5">
+            <div className="flex flex-col justify-center items-center gap-7 p-6 backdrop-blur-lg border-transparent rounded-lg shadow-lg md:gap-5">
 
 
 
