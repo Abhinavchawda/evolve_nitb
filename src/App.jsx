@@ -46,13 +46,9 @@ function App() {
 
       <div id='events' className="Event min-h-[100vh] text-white overflow-hidden">
         <Header title="Our Events" />
-        {
-          event.map((e) => (
-            <Event key={e.id} EventName={e.name} EventContent={e.content} />
-          ))
-        }
+        <Event/>
       </div>
-
+        
       <Achievements></Achievements>
       <Team></Team>
       <Gallery></Gallery>
