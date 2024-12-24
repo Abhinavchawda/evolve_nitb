@@ -1,38 +1,89 @@
-import React from 'react'
-import Header from './Header'
+import React from "react";
+import Header from "./Header";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../index.css"; // Ensure you have this file and it's correctly linked
 
 const Achievements = () => {
-    return (
-        <div id='achievements'>
-            <div className='achievements min-h-screen text-white overflow-hidden'>
-                <Header title="Achievements"></Header>
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
-                <div className='flex flex-col lg:flex-row justify-center items-center gap-10 my-20'>
-                    <div className='image w-3/4 lg:w-[40%] hover:scale-110 transition-transform duration-300 ease-in-out'>
-                        <img
-                            data-aos="fade-right"
-                            src="Achievements/trophy.jpg" className='rounded-2xl md:h-[350px] md:w-[500px] mx-auto'></img>
-                    </div>
-
-                    <div data-aos="fade-left" offset="100" className='written-content w-3/4 lg:w-[40%] text-center'>
-                        <div className='text-3xl font-blod mt-0 mb-2'>
-                            Gujrat Robofest 2024 : India's biggest Robotic competition
-                        </div>
-                        <div className='text-lg'>
-                            With effort and hard work, three teams from Evolve have advanced to the list of winners of the Ideation Stage. Competing with young minds from across India. Each team will now develop a solid proof of concept for their respective ideas under the categories they were selected for, with each team receiving a cash prize of INR 50,000 to move ahead.
-                        </div>
-                        <div className='text-3xl font-blod mt-8 mb-2'>
-                            National Finalist-TATA Technologies Innovent
-                        </div>
-                        <div className='text-lg'>
-                            Three Team Members (Mr. Yash Kumar Atlani, Mr. Ayush Jain, Mr. Aman Sharma) from Evolve were selected as the National Finalists for the Tata Technologies InnoVent. A National Hackathon for Engineering Students. The Team from Evolve NIT Bhopal was selected under the Top 10 in the Country out of 2900 Members and 800+ Teams.
-                        </div>
-                    </div>
-
+  return (
+    <div id="achievements">
+      <div className="first achievements h-[850px] text-white overflow-hidden">
+        <Header title="Achievements" />
+        <div className="second h-[850px] w-3/4 m-auto mt-20 ">
+          <Slider {...settings}>
+            {data.map((d, index) => (
+              <div
+                key={index}
+                className="third mx-auto mb-10 lg:mx-0 w-[250px] h-[450px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-[rgb(71,255,47)] hover:scale-[110%] hover:translate-x-2 transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgb(71,255,47)]"
+              >
+                <div className="fourth rounded-t-xl bg-indigo-500 flex justify-center items-center">
+                  <img src={d.img} alt={d.name} className="h-[242px] w-full" />
                 </div>
-            </div>
+                <div className="fifth flex flex-col justify-center items-center gap-4 p-4">
+                  <p className="font-bold text-xl">{d.name}</p>
+                   <div className=" text-center">
+                   <p >{d.review}</p>
+                   </div>
+                 
+                </div>
+              </div>
+            ))}
+          </Slider>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Achievements
+const data = [
+  {
+    name: `Gujrat Robofest 2024`,
+    img: `Achievements/guj_robofest.png`,
+    review: `With effort and hard work, three teams from Evolve have advanced to the list of winners of the Ideation Stage. Competing with young minds from across India.`,
+  },
+  {
+    name: `National Finalist-TATA Technologies Innovent`,
+    img: `Achievements/guj_robofest.png`,
+    review: `Three Team Members (Mr. Yash Kumar Atlani, Mr. Ayush Jain, Mr. Aman Sharma) from Evolve were selected as the National Finalists for the Tata Technologies InnoVent. A National Hackathon for Engineering Students. `,
+  },
+];
+
+export default Achievements;
