@@ -92,7 +92,7 @@ function Footer() {
             </form>
           </div>
         </div>
-        <div className="m-8">
+        <div className="my-8 md:m-8">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Our Location</h3>
           <div className="aspect-w-16 aspect-h-9">
             <iframe
@@ -123,37 +123,19 @@ function Footer() {
         </div>
       </div>
 
-
-
-
-
       {isModalOpen && (
-        
         <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
           <div className="h-screen w-[90vw] overflow-auto">
             <Devs />
           </div>
-          
-
-
           <button
             className="absolute top-5 right-20 text-white hover:text-gray-800 text-7xl"
             onClick={closeModal}
           >
             &times;
           </button>
-
-
-
         </div>
       )}
-
-
-
-
-
-
-
     </div>
   );
 }

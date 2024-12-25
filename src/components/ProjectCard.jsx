@@ -15,7 +15,7 @@ const ProjectCard = (Project) => {
   }
   return (
     <div
-      className="my-16 sm:my-[100px] mx-auto sm:mx-10 w-[80vw] sm:w-[410px] bg-[rgb(3,2,14)] hover:bg-[rgb(0,0,0)] border border-transparent rounded-3xl hover:border-[rgb(71,255,47)] overflow-hidden  text-white shadow-lg transition-transform duration-300 ease-in-out"
+      className="my-16 sm:my-[100px] mx-auto sm:mx-10 w-[80vw] sm:w-[410px] bg-zinc-950 hover:bg-[rgb(0,0,0)] border border-transparent rounded-3xl hover:border-[rgb(71,255,47)] overflow-hidden  text-white shadow-lg transition-transform duration-300 ease-in-out"
       onMouseEnter={showDetails} onMouseLeave={hideDetails} 
     >
 

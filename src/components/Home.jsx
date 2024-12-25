@@ -39,7 +39,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="h-screen text-white overflow-hidden">
+            <div id='main' className="h-screen text-white overflow-hidden">
 
                 <div className='bg' id='vanta'></div>
 
