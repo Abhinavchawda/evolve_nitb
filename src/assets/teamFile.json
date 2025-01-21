@@ -29,21 +29,21 @@
         {
             "id": 6,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736578500/evolve_web/PreFinalYear/AkshatAgarwal.jpg",
             "name": "Akshat Agarwal",
             "post": "President"
         },
         {
             "id": 4,
             "value": 1,
-            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962310/evolve_web/PreFinalYear/MrAbhinavChawda.jpg",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1737476640/evolve_web/PreFinalYear/MrAbhinavChawda.jpg",
             "name": "Abhinav Chawda",
             "post": "Vice President"
         },
         {
             "id": 7,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736578278/evolve_web/PreFinalYear/AnantSrivastava.jpg",
             "name": "Anant Srivastava",
             "post": "Vice President"
         },
@@ -64,28 +64,28 @@
         {
             "id": 13,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736576600/evolve_web/PreFinalYear/ShiviMishra.jpg",
             "name": "Shivi Mishra",
             "post": "Technical Head"
         },
         {
             "id": 14,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736578857/evolve_web/PreFinalYear/SwekshaVats.jpg",
             "name": "Sweksha Vats",
             "post": "Project Management Head"
         },
         {
             "id": 14,
             "value": 1,
-            "image": "",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1737475039/PashupatinathEvolve_ybjx7h.png",
             "name": "Pashupatinath Soni",
             "post": "Project Management Head"
         },
         {
             "id": 9,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736576861/evolve_web/PreFinalYear/KrishnaGupta.jpg",
             "name": "Krishna Gupta",
             "post": "Event Management Head"
         },
@@ -99,29 +99,36 @@
         {
             "id": 8,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736577693/evolve_web/PreFinalYear/AnimeshSingh.jpg",
             "name": "Animesh Singh",
             "post": "Core Member"
         },
         {
             "id": 10,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1737475850/PriyanshiEvolve_oq3tbw.png",
             "name": "Priyanshi Taram",
             "post": "Design Head"
         },
         {
             "id": 11,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736577004/evolve_web/PreFinalYear/RohitDudve.jpg",
             "name": "Rohit Dudve",
             "post": "Core Member"
         },
         {
-            "id": 11,
+            "id": 12,
             "value": 1,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs923d5AJf40IIfwSFp7ANnHT6fA1RBId1g&s",
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736576020/evolve_web/PreFinalYear/MrRKYadav.jpg",
             "name": "Rohit Kumar Yadav",
+            "post": "Core Member"
+        },
+        {
+            "id": 13,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736577198/evolve_web/PreFinalYear/SnehalNandurkar.jpg",
+            "name": "Snehal Nandurkar",
             "post": "Core Member"
         }
     ]

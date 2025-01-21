@@ -17,7 +17,7 @@ const Gallery = () => {
 
                     {
                         photos.map((i)=>(
-                            <img key={index++} src={i.image} className="mb-0 lg:mx-0 md:h-[300px] md:w-[350px]  overflow-hidden flex justify-center items-center hover:scale-[105%] transition-transform duration-300 ease-in-out rounded-xl"></img>
+                            <img key={index++} src={i.image} className="mb-0 lg:mx-0 md:h-[300px] md:w-[350px]  overflow-hidden flex justify-center items-center hover:scale-[105%] transition-transform duration-300 ease-in-out rounded-xl object-cover"></img>
                         ))
                     }
 
