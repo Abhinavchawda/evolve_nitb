@@ -35,8 +35,14 @@ const TeamCard = (card) => {
                             {card.post}
                         </div>
                         <div className='my-1 font-semibold text-center text-2xl flex gap-5'>
-                            <img src={instaLogo} className='invert cursor-pointer w-6 h-6'></img>
-                            <img src={linkedInLogo} className='invert cursor-pointer w-6 h-6'></img>
+                            <a href={card.insta}>
+                                <img src={instaLogo} className='invert cursor-pointer w-6 h-6'></img>
+                                </a>
+                            <a href={card.linkedin}>
+                                <img src={linkedInLogo} className='invert cursor-pointer w-6 h-6'></img>
+                                </a>
+                            
+                            
                         </div>
                     </div>
                     </div>

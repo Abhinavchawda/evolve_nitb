@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from './Header';
 import TeamCard from './TeamCard';
-
 import Slider from "react-slick";
 
 // Import css files
@@ -56,7 +55,7 @@ const Team = () => {
         <h6 className='text-xl'>Founding Members</h6>
         <Slider {...settings1} >
           {team.FinalYear.map((t) => (
-            <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} />
+            <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} insta={t.insta} linkedin={t.linkedin} />
           ))
           }
         </Slider>

@@ -4,25 +4,38 @@
             "id": 0,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962054/evolve_web/FinalYear/MrYashAtlani.jpg",
-            "name": "Yash Kumar Atlani"
+            "name": "Yash Kumar Atlani",
+            "insta": "",
+            "linkedin": "https://www.linkedin.com/in/yash-k-85908a1a0/"
+
+
         },
         {
             "id": 1,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962095/evolve_web/FinalYear/MrAyushJain.jpg",
-            "name": "Ayush Jain"
+            "name": "Ayush Jain",
+            "insta": "https://www.instagram.com/ayushask94/",
+            "linkedin": "https://www.linkedin.com/in/ayush-jain-b368a3131/"
+
         },
         {
             "id": 2,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962182/evolve_web/FinalYear/MrAmanSharma.jpg",
-            "name": "Aman Sharma"
+            "name": "Aman Sharma",
+            "insta": "https://www.instagram.com/amansharma3730/",
+            "linkedin": "https://www.linkedin.com/in/aman-sharma-399399185/"
+
         },
         {
             "id": 3,
             "value": 1,
             "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962144/evolve_web/FinalYear/MrAryanBarghal.jpg",
-            "name": "Aryan Bargal"
+            "name": "Aryan Bargal",
+            "insta": "",
+            "linkedin": "https://www.linkedin.com/in/aryan-bargal-48818a246/"
+
         }
     ],
     "PreFinalYear": [
