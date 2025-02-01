@@ -65,7 +65,7 @@ const Team = () => {
         <h6 className='text-xl'>Pre Final Year Team</h6>
         <Slider {...settings1} >
           {team.PreFinalYear.map((t) => (
-            <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} />
+            <TeamCard key={t.id} source={t.image} name={t.name} post={t.post} insta={t.insta}/>
           ))
           }
         </Slider>
