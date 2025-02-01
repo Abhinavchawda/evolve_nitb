@@ -108,12 +108,12 @@ function Footer() {
         </div>
         <div className="my-4 text-center">
           <div className="flex justify-center gap-2 my-2">
-            <a href="#" className="text-blue-500">
+            <a href="https://www.instagram.com/evolve_nitb/" className="text-blue-500">
               <i>
                 <img src={instaLogo} className='invert cursor-pointer w-6 h-6'></img>
               </i>
             </a>
-            <a href="#" className="text-pink-500">
+            <a href="https://in.linkedin.com/company/evolve-nit-bhopal" className="text-pink-500">
               <i>
                 <img src={linkedInLogo} className='invert cursor-pointer w-6 h-6'></img>
               </i>

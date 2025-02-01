@@ -24,7 +24,7 @@ const SideNav = () => {
           </g>
         </svg>
       </a>
-      <a href="https://in.linkedin.com/company/evolve-nit-bhopal" className="m-2 cursor-pointer">
+      <a href="https://www.instagram.com/evolve_nitb/" className="m-2 cursor-pointer">
         <svg
           className="fill-[rgb(71,255,47)] h-6 w-6 hover:fill-slate-200 hover:scale-110"
           width="100px"
@@ -70,7 +70,7 @@ const SideNav = () => {
           </g>
         </svg>
       </a>
-      <a href="https://in.linkedin.com/company/evolve-nit-bhopal" className="m-2 cursor-pointer" >
+      <a href="https://www.instagram.com/evolve_nitb/" className="m-2 cursor-pointer" >
         <svg
           className="fill-[rgb(71,255,47)] h-6 hover:fill-slate-200 hover:scale-110"
           width="100px"
