@@ -17,15 +17,14 @@ const Home = () => {
             el: "#vanta",
             mouseControls: true,
             touchControls: true,
-            gyroControls: false,
+            gyroControls: true,
             minHeight: 1000.00,
             minWidth: 1000.00,
             scale: 1.00,
-            scaleMobile: 1.00,
             color: 0xff41,
             backgroundColor: 0x0,
-            points: 18.00,
-            spacing: 13.00
+            points: 12.00,
+            spacing: 12.00
         })
     }, [])
 
