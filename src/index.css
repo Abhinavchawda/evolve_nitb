@@ -3,3 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom CSS for larger arrows */
+.slick-prev,
+.slick-next {
+  width: 40px; /* Increase arrow width */
+  height: 40px; /* Increase arrow height */
+  z-index: 100; /* Ensure arrows are above the slides */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px; /* Increase arrow icon size */
+  color: bg-zinc-800; /* Green color for arrows */
+}
+

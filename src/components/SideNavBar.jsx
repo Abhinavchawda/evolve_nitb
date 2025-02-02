@@ -2,7 +2,7 @@ import React from "react";
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col gap-1 z-10 bg-slate-200/5 fixed right-0 bottom-[34.13%] justify-center items-center w-10 p-6 rounded-l-3xl border-r-0">
+    <div className="flex flex-col gap-1 z-10 bg-zinc-800 fixed right-0 bottom-[34.13%] justify-center items-center w-10 p-6 rounded-l-3xl border-r-0">
       <a href="https://in.linkedin.com/company/evolve-nit-bhopal" className="m-2 cursor-pointer">
         <svg
           className="fill-[rgb(71,255,47)] h-6 w-6 hover:fill-slate-200 hover:scale-110"

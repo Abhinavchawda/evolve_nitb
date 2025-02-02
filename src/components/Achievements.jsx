@@ -46,23 +46,27 @@ const Achievements = () => {
   };
 
   return (
-    <div id="achievements">
-      <div className="md:min-h-screen text-white overflow-hidden">
+    <div id="achievements" className="bg-zinc-950 py-20">
+      <div className="text-white overflow-hidden">
         <Header title="Achievements" />
         <div className="mx-5 lg:mx-auto mt-20 max-w-4xl px-4 sm:px-6 lg:px-8">
-          <Slider {...settings}>
+          <Slider {...settings} className="px-7">
             {data.map((d, index) => (
               <div
                 key={index}
-                className="bg-zinc-950 rounded-2xl overflow-hidden flex flex-col justify-center items-center  hover:scale-[0.95] border lg:border-[rgb(71,255,47)] hover:border-transparent transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgb(71,255,47)]"
+                className="bg-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-center items-center border-2 border-transparent hover:border-green-400 transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400/50"
               >
-                <div className="fourth rounded-t-xl bg-indigo-500 flex justify-center items-center">
-                  <img src={d.img} alt={d.name} className="h-[242px] w-full" />
+                <div className="fourth rounded-t-xl bg-indigo-500 flex justify-center items-center w-full overflow-hidden">
+                  <img
+                    src={d.img}
+                    alt={d.name}
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
-                <div className="fifth flex flex-col justify-center items-center gap-4 p-4">
-                  <p className="font-bold text-xl text-center">{d.name}</p>
-                  <div className="text-center">
-                    <p >{d.review}</p>
+                <div className="p-6 flex flex-col justify-center items-center gap-4">
+                  <p className="font-bold text-2xl text-center text-green-400">{d.name}</p>
+                  <div className="text-center text-gray-300">
+                    <p>{d.review}</p>
                   </div>
                 </div>
               </div>

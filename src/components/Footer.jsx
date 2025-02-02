@@ -17,7 +17,8 @@ function Footer() {
   };
 
   return (
-    <div className="overflow-y-auto">
+    
+    <div className="overflow-y-auto ">
       <div id="contact" className="bg-black text-white p-6">
         <div className="border border-[rgb(71,255,47)] mb-20">
         </div>

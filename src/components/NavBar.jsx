@@ -22,7 +22,7 @@ const NavBar = () => {
     return (
         <div className='flex justify-center items-center'>
 
-            <div id='box' className='w-[93%] mt-5 border border-[rgb(71,255,47)] rounded-2xl backdrop-blur-lg fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
+            <div id='box' className='w-[90%] mt-5 border border-[rgb(71,255,47)] rounded-2xl backdrop-blur-lg fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
                 <div className='relative flex items-center justify-between h-20 rounded-2xl'>
                     <div className='text-[rgb(17,42,42)] font-bold text-3xl mx-5 animate-pulse ml-10'>
                         <img src='/Evolve_logo.png' height={50} width={75}></img>
