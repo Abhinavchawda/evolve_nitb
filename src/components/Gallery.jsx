@@ -5,7 +5,7 @@ import photos from '../assets/galleryFile.json'
 const Gallery = () => {
     let index = 0;
     return (
-        <div>
+        <div id='gallery'>
             <div className='achievements min-h-[100vh] text-white overflow-hidden'>
                 <Header title="Gallery"></Header>
 

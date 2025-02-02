@@ -48,7 +48,7 @@ const Team = () => {
   };
 
   return (
-    <div className='lg:min-h-[100vh] text-white overflow-hidden my-20'>
+    <div className='lg:min-h-[100vh] text-white overflow-hidden my-20' id='team'>
       <Header title="Team Evolve"></Header>
 
       <div data-aos="zoom-in" className='w-[80vw] mx-auto mt-10'>
