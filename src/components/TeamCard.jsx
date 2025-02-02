@@ -17,7 +17,7 @@ const TeamCard = (card) => {
 
     return (
         <div className='flex justify-center items-center'>
-            <div className="m-5 w-[250px] h-[350px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-green-400 transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400/50">
+            <div className="m-5 w-[250px] h-[350px] md:w-[280px] md:h-[400px] rounded-3xl overflow-hidden flex flex-col justify-center items-center border border-transparent hover:border-[rgb(71,255,47)] transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[rgb(71,255,47)]">
                 <div
                     className='flex relative justify-center items-center'
                     onMouseEnter={show}

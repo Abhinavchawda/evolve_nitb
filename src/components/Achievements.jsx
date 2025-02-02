@@ -54,7 +54,7 @@ const Achievements = () => {
             {data.map((d, index) => (
               <div
                 key={index}
-                className="bg-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-center items-center border-2 border-transparent hover:border-green-400 transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400/50"
+                className="bg-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-center items-center border-2 border-transparent hover:border-[rgb(71,255,47)] transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400/50"
               >
                 <div className="fourth rounded-t-xl bg-indigo-500 flex justify-center items-center w-full overflow-hidden">
                   <img
@@ -64,7 +64,7 @@ const Achievements = () => {
                   />
                 </div>
                 <div className="p-6 flex flex-col justify-center items-center gap-4">
-                  <p className="font-bold text-2xl text-center text-green-400">{d.name}</p>
+                  <p className="font-bold text-2xl text-center text-[rgb(71,255,47)]">{d.name}</p>
                   <div className="text-center text-gray-300">
                     <p>{d.review}</p>
                   </div>

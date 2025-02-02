@@ -4,16 +4,18 @@ import EventFile from '../assets/eventFile.json';
 const events = [{
     "title" : "WORLD EV DAY",
     "image" : "/EventsGallery/evDay.jpeg",
-    "content": "Evolve organized an event to celebrate EV Day, which included a quiz competition, and awarded prizes to the winners."
-},{
-   "title" : "EV Day",
+    "content": "Evolve organized a vibrant EV Day celebration, featuring an engaging quiz competition that tested participants' knowledge about electric vehicles. The event saw active participation, and winners were awarded exciting prizes. It was a great way to raise awareness and foster enthusiasm about the future of sustainable transportation."
+},
+{
+    "title" : "WORLD EV DAY",
     "image" : "/EventsGallery/evDay.jpeg",
-    "content": "Evolve organized an event to celebrate EV Day, which included a quiz competition, and awarded prizes to the winners."
-},{
-    "title" : "EV Day",
+    "content": "Evolve organized a vibrant EV Day celebration, featuring an engaging quiz competition that tested participants' knowledge about electric vehicles. The event saw active participation, and winners were awarded exciting prizes. It was a great way to raise awareness and foster enthusiasm about the future of sustainable transportation."
+},
+{
+    "title" : "WORLD EV DAY",
     "image" : "/EventsGallery/evDay.jpeg",
-    "content": "Evolve organized an event to celebrate EV Day, which included a quiz competition, and awarded prizes to the winners."
-}
+    "content": "Evolve organized a vibrant EV Day celebration, featuring an engaging quiz competition that tested participants' knowledge about electric vehicles. The event saw active participation, and winners were awarded exciting prizes. It was a great way to raise awareness and foster enthusiasm about the future of sustainable transportation."
+},
 ]
 
 const Event = () => {
