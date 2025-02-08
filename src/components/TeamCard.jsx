@@ -33,16 +33,16 @@ const TeamCard = (card) => {
 
                     <div
                         ref={showRef}
-                        className='z-10 absolute bottom-4 opacity-0 bg-zinc-800 bg-opacity-60 px-4 py-4 rounded-3xl border border-black transition-all duration-700 w-[90%] backdrop-blur-sm'
+                        className='z-10 absolute bottom-4 opacity-0 bg-zinc-800 bg-opacity-60 px-4 py-4 rounded-3xl transition-all duration-700 w-[90%] backdrop-blur-sm'
                     >
                         <div className='flex flex-col justify-center items-center text-center'>
                             <div className='font-semibold text-center text-2xl text-white'>
                                 {card.name}
                             </div>
-                            <div className='my-2 font-semibold text-center text-xl'>
+                            <div className='my-1 font-semibold text-center text-xl'>
                                 {card.post}
                             </div>
-                            <div className='my-2 font-semibold text-center text-2xl flex gap-5'>
+                            <div className='my-1 font-semibold text-center text-2xl flex gap-3'>
                                 <a href={card.insta}>
                                     <img
                                         src={instaLogo}

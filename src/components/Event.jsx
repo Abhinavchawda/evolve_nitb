@@ -20,7 +20,7 @@ const events = [{
 
 const Event = () => {
     return (
-        <div class="flex min-h-screen  items-center justify-center bg-black">
+        <div class="flex min-h-[80vh]  items-center justify-center bg-black">
   <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 w-[90%]">
     {
         events.map((item)=>{

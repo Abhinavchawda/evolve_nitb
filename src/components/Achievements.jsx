@@ -46,7 +46,7 @@ const Achievements = () => {
   };
 
   return (
-    <div id="achievements" className="bg-zinc-950 py-20">
+    <div id="achievements" className="py-20">
       <div className="text-white overflow-hidden">
         <Header title="Achievements" />
         <div className="mx-5 lg:mx-auto mt-20 max-w-4xl px-4 sm:px-6 lg:px-8">

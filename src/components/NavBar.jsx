@@ -21,8 +21,7 @@ const NavBar = () => {
 
     return (
         <div className='flex justify-center items-center'>
-
-            <div id='box' className='w-[90%] mt-5 border border-[rgb(71,255,47)] rounded-2xl backdrop-blur-lg fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
+            <div id='box' className='w-[90%] mt-5 border border-transparent hover:border-[rgb(71,255,47)] rounded-2xl backdrop-blur-lg fixed top-1 z-50 mx-auto transition-all duration-500 ease-in-out'>
                 <div className='relative flex items-center justify-between h-20 rounded-2xl'>
                     
                     <div className='text-[rgb(17,42,42)] font-bold text-3xl mx-5 animate-pulse ml-10'>
@@ -30,7 +29,7 @@ const NavBar = () => {
                     </div>
 
                     <img ref={icon_ref} onClick={showMenu} className='lg:hidden invert absolute right-5 text-white h-8 w-8' src={bar_logo} alt='menu'></img>
-                    <ul ref={btn_ref} className='border-[rgb(71,255,47)] invisible lg:hidden rounded-2xl backdrop-blur-lg relative top-72 bg-zinc-800 w-[100vw] mr-20 flex flex-col items-center'>
+                    <ul ref={btn_ref} className='text-3xl border-[rgb(71,255,47)] invisible lg:hidden rounded-2xl backdrop-blur-lg relative top-72 bg-zinc-800 w-[100vw] mr-20 flex flex-col items-center'>
                         <li onClick={showMenu} className='rounded-xl font-semibold text-border-[rgb(71,255,47)] m-2 flex justify-center py-1 px-2'><a href='#main'><img className='invert' src={home_logo} alt='Home'></img></a></li>
                         <li onClick={showMenu} className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#about'>About</a></li>
                         <li onClick={showMenu} className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#domains'>Domains</a></li>
