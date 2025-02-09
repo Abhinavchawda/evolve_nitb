@@ -8,7 +8,7 @@ import "@darenft/react-3d-hover-card/dist/style.css";
 const Domain = () => {
   return (
     <div id='domains'>
-      <div className='domain min-h-[100vh] text-white overflow-hidden mb-8 md:mb-16'>
+      <div className='domain text-white overflow-hidden mb-8 md:mb-16'>
         <div>
           <Header title="Our Domains"></Header>
         </div>

@@ -4,7 +4,7 @@ import Header from './Header';
 const AboutUs = () => {
     return (
         <div id='about'>
-            <div className='AboutUs min-h-screen text-white overflow-hidden flex items-center'>
+            <div className='AboutUs text-white overflow-hidden flex items-center'>
                 <div>
                     <Header title="About Us"></Header>
 

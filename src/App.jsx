@@ -33,7 +33,7 @@ function App() {
       <AboutUs></AboutUs>
       <Domain></Domain>
 
-      <div id='projects' className='Project overflow-hidden min-h-[100vh]'>
+      <div id='projects' className='Project overflow-hidden'>
         <Header title="Our Projects" />
         <div className="content flex flex-wrap justify-center sm:justify-around my-4 mx-auto">
           {
@@ -44,9 +44,9 @@ function App() {
         </div>
       </div>
 
-      <div id='events' className="Event min-h-[100vh] text-white overflow-hidden">
+      <div id='events' className="text-white overflow-hidden">
         <Header title="Our Events" />
-        <Event/>
+        <div className='mb-10 mt-12'><Event/></div>
       </div>
         
       <Achievements></Achievements>

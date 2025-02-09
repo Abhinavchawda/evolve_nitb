@@ -3,13 +3,13 @@
         "id": 1,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNS5Y_R9e4qoTF8C_inOfB-OeMKlL_6Webmw&s",
         "PName": "Electric Bycle",
-        "PDetails": "Our E-Cycle Project is dedicated to promoting sustainable transportation by designing and building eco-friendly electric bicycles. This initiative focuses on innovation in green technology, reducing carbon footprints, and encouraging a healthier, more sustainable lifestyle on campus. Through hands-on learning and collaboration, our team is committed to creating efficient, reliable e-cycles that can serve as a model for future sustainable transport solutions."
+        "PDetails": "A smart e-bicycle with a 36V-42V battery, real-time monitoring via ESP32, GPS tracking, and a Pedal Assist Sensor (PAS) for efficiency. It supports solar and on-grid charging with automated cutoff and current regulation. Powered by a 250W BLDC hub motor, it offers multiple acceleration modes and geo-fencing for security. Features include a 40km/h top speed, 35-40km range, lights, horn, USB ports, and app integration."
     },
     {
         "id": 2,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyrQOm8XoJvkPXe2vyxN5cEIw8zNNx3rExVQ&s",
-        "PName": "Self Balancing Robot",
-        "PDetails": "The goal of this project was to design and create an autonomous self-balancing robot using the Arduino processor. Although the project achieved success, it demonstrated the fascinating aspect of balancing an inherently unstable system."
+        "PName": "Swarm Drones",
+        "PDetails": "Designed using Python and the Drone Kit Library, the swarm drone system enables coordinated movement, obstacle avoidance, and task allocation through swarm intelligence algorithms. A master drone, controlled via radio telemetry, synchronizes slave drones for seamless operation. Equipped with a gripper and color-detection system, the drone autonomously identifies targets and ensures precise payload delivery. The custom-built aluminum frame provides durability, agility, and reliability for complex tasks."
     },
     {
         "id": 3,
@@ -21,12 +21,30 @@
         "id": 4,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGc7aqolvUQ91kF7GYxy-w1EN_ob5-wYpMg&s",
         "PName": "Ionic Thrusters",
-        "PDetails": "The Ionic Thrusters Project delves into advanced propulsion technology by developing and testing ionic thrusters for potential aerospace applications. These engines, which generate thrust by ionizing and accelerating particles, offer a promising avenue for efficient and sustainable space travel. Our team is focused on exploring the physics behind ion propulsion, optimizing thrust efficiency, and pushing the boundaries of modern propulsion systems. This project aims to contribute to the future of space exploration with cutting-edge research and innovative engineering solutions."
+        "PDetails": "An ion thruster is an electric propulsion system that ionizes a propellant (usually xenon) and accelerates the ions using an electric field to generate thrust. It is highly efficient, as it avoids the complexities of combustion engines. The process involves ionization (creating positive ions), acceleration (propelling ions via an electric field), and thrust generation (reaction force moving the spacecraft)."
     },
     {
         "id": 5,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_CbRrw9a9Kgp0LxjLyCp4nMK5peqgi48LA&s",
-        "PName": "Glider",
-        "PDetails": "The Gliders Project explores the science of flight by designing and constructing non-powered gliders. The team applies principles of aerodynamics and engineering to create efficient and innovative glider models. This project aims to enhance understanding of flight mechanics, inspire creativity, and push the boundaries of lightweight, sustainable aviation. Through experimentation and collaboration, we strive to achieve optimal flight performance and advance our knowledge in this field."
+        "PName": "Air Glider",
+        "PDetails": "A hand-built RC air glider made from foam board, designed for efficient soaring with a high-aspect-ratio wing. The lightweight fuselage houses a radio receiver and servos controlling the elevator (pitch) and rudder (yaw). Simple construction techniques ensure smooth control and easy assembly, making it ideal for beginners and hobbyists."
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1739101972/evolve_web/projects/eqk4o5h6wvsqnffto24w.jpg",
+        "PName": "Robotic Arm",
+        "PDetails": "A robotic arm consists of controllers that act as its brain, enabling manual or automatic operation. The arm itself has three main parts—shoulder, elbow, and wrist—allowing flexible movement. At the end is the end effector, usually a claw, for gripping objects. Drives control joint movement, sometimes using belts, while sensors enhance precision by enabling collision avoidance and adaptive gripping."
+    },
+    {
+        "id": 7,    
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4h05Ci4K4GwlZvi2f16QbuPjy0-wVKbkyA&s",
+        "PName": "Maze Solver Robot",
+        "PDetails": "An autonomous robot that navigates mazes using sensors and intelligent algorithms. It detects obstacles with proximity and infrared sensors and determines the optimal path using the Flood Fill algorithm. Its modular design allows easy customization, and energy-efficient optimization ensures extended operation. The robot demonstrates advanced robotics concepts, including path planning, sensor integration, and real-time decision-making."
+    },
+    {
+        "id": 8,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR9lkeSODOUeNemplXk4YDNlfPEknuEqDeHw&s",
+        "PName":"Submarine",
+        "PDetails": "An autonomous underwater exploration system with three degrees of motion, designed for depths over 2 meters. It features lidar for mapping, an FPV camera for barcode detection, and GPS for position estimation. A Raspberry Pi 4 processes sensor data, including lidar for obstacle detection, a pressure sensor for depth measurement, and real-time video feedback for navigation. Data is logged for further analysis, making it ideal for scanning confined water bodies."
     }
 ]
