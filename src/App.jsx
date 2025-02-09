@@ -35,7 +35,7 @@ function App() {
 
       <div id='projects' className='Project overflow-hidden'>
         <Header title="Our Projects" />
-        <div className="content flex flex-wrap justify-center sm:justify-around my-4 mx-auto">
+        <div className="content flex flex-wrap justify-center sm:justify-around my-0 mx-auto">
           {
             project.map((p) => (
               <ProjectCard key={p.id} id={p.id} image={p.image} PName={p.PName} PDetails={p.PDetails} />
