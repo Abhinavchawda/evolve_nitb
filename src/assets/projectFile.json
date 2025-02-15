@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/deblyam9n/image/upload/v1739532114/cycle_ev_f8p5ba.jpg",
+        "PName": "Electric Bycle",
+        "PDetails": "A smart e-bicycle with a 36V-42V battery, real-time monitoring via ESP32, GPS tracking, and a Pedal Assist Sensor (PAS) for efficiency. It supports solar and on-grid charging with automated cutoff and current regulation. Powered by a 250W BLDC hub motor, it offers multiple acceleration modes and geo-fencing for security. Features include a 40km/h top speed, 35-40km range, lights, horn, USB ports, and app integration."
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/deblyam9n/image/upload/v1739532114/swarm_drones_5_drones_together_s2r5c8.jpg",
+        "PName": "Swarm Drones",
+        "PDetails": "Designed using Python and the Drone Kit Library, the swarm drone system enables coordinated movement, obstacle avoidance, and task allocation through swarm intelligence algorithms. A master drone, controlled via radio telemetry, synchronizes slave drones for seamless operation. Equipped with a gripper and color-detection system, the drone autonomously identifies targets and ensures precise payload delivery. The custom-built aluminum frame provides durability, agility, and reliability for complex tasks."
+    },
+    {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZIs7XmR5BX3x7XQ2JEI63tyD3zJv566zVHQ&s",
+        "PName": "RFID Door Locking System",
+        "PDetails": "Designed and implemented an RFID-based locking system, integrating RFID technology to provide secure access control Tools & technologies used: Arduino, Firebase, NodeMcu, RFID, I2C Developed hardware and software components to enable efficient authentication and locking mechanisms. Project involved conceptualization, prototyping, and testing phases, demonstrating proficiency in system design and implementation."
+    },
+    {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGc7aqolvUQ91kF7GYxy-w1EN_ob5-wYpMg&s",
+        "PName": "Ionic Thrusters",
+        "PDetails": "An ion thruster is an electric propulsion system that ionizes a propellant (usually xenon) and accelerates the ions using an electric field to generate thrust. It is highly efficient, as it avoids the complexities of combustion engines. The process involves ionization (creating positive ions), acceleration (propelling ions via an electric field), and thrust generation (reaction force moving the spacecraft)."
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/deblyam9n/image/upload/v1739532114/atlani_sir_with_plane_bhehgq.jpg",
+        "PName": "Air Glider",
+        "PDetails": "A hand-built RC air glider made from foam board, designed for efficient soaring with a high-aspect-ratio wing. The lightweight fuselage houses a radio receiver and servos controlling the elevator (pitch) and rudder (yaw). Simple construction techniques ensure smooth control and easy assembly, making it ideal for beginners and hobbyists."
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1739101972/evolve_web/projects/eqk4o5h6wvsqnffto24w.jpg",
+        "PName": "Robotic Arm",
+        "PDetails": "A robotic arm consists of controllers that act as its brain, enabling manual or automatic operation. The arm itself has three main parts—shoulder, elbow, and wrist—allowing flexible movement. At the end is the end effector, usually a claw, for gripping objects. Drives control joint movement, sometimes using belts, while sensors enhance precision by enabling collision avoidance and adaptive gripping."
+    },
+    {
+        "id": 7,    
+        "image": "https://res.cloudinary.com/deblyam9n/image/upload/v1739532114/remote_control_maze_solver_o3rxra.jpg",
+        "PName": "Maze Solver Robot",
+        "PDetails": "An autonomous robot that navigates mazes using sensors and intelligent algorithms. It detects obstacles with proximity and infrared sensors and determines the optimal path using the Flood Fill algorithm. Its modular design allows easy customization, and energy-efficient optimization ensures extended operation. The robot demonstrates advanced robotics concepts, including path planning, sensor integration, and real-time decision-making."
+    },
+    {
+        "id": 8,
+        "image":"https://res.cloudinary.com/deblyam9n/image/upload/v1739532113/submarine_zgagtu.jpg",
+        "PName":"Submarine",
+        "PDetails": "An autonomous underwater exploration system with three degrees of motion, designed for depths over 2 meters. It features lidar for mapping, an FPV camera for barcode detection, and GPS for position estimation. A Raspberry Pi 4 processes sensor data, including lidar for obstacle detection, a pressure sensor for depth measurement, and real-time video feedback for navigation. Data is logged for further analysis, making it ideal for scanning confined water bodies."
+    }
+]

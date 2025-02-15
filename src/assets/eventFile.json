@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title" : "World EV Day",
+        "image" : "/EventsGallery/evDay.jpeg",
+        "content": "Evolve organized a vibrant EV Day celebration, featuring an engaging quiz competition that tested participants' knowledge about electric vehicles. The event saw active participation, and winners were awarded exciting prizes. It was a great way to raise awareness and foster enthusiasm about the future of sustainable transportation."
+    },
+    {
+        "id": 2,
+        "title": "Gizmocraft",
+        "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1739115017/evolve_web/events/q7exd5m5fzcvmibeejpg.jpg",
+        "content": "Gizmocraft, organized by Evolve, was an exciting tech event featuring an elimination round followed by a hands-on challenge. Selected teams had to design and build a Rube Goldberg machine using waste materials, showcasing creativity and engineering skills. The event encouraged problem-solving, teamwork, and innovation, concluding with awards for the most ingenious designs"
+    },
+    {
+        "id": 3,
+        "title": "Electra Expo",
+        "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1739114956/evolve_web/events/yt4nky4rk3wugswsv1fa.jpg",
+        "content": "The exhibition showcased a wide range of projects, including electric cycles, self balancing robots, and pick & drop robotics. Participants had the opportunity to explore the latest projects and learn about the benefits of electric mobility. The exhibition also featured interactive displays and demonstrations, providing a hands-on experience for attendees."
+    }
+]

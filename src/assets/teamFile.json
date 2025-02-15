@@ -1,0 +1,173 @@
+{
+    "FinalYear": [
+        {
+            "id": 0,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962054/evolve_web/FinalYear/MrYashAtlani.jpg",
+            "name": "Yash Kumar Atlani",
+            "insta": "https://www.instagram.com/evolve_nitb/",
+            "linkedin": "https://www.linkedin.com/in/yash-k-85908a1a0/"
+        },
+        {
+            "id": 1,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962095/evolve_web/FinalYear/MrAyushJain.jpg",
+            "name": "Ayush Jain",
+            "insta": "https://www.instagram.com/ayushask94/",
+            "linkedin": "https://www.linkedin.com/in/ayush-jain-b368a3131/"
+        },
+        {
+            "id": 2,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962182/evolve_web/FinalYear/MrAmanSharma.jpg",
+            "name": "Aman Sharma",
+            "insta": "https://www.instagram.com/amansharma3730/",
+            "linkedin": "https://www.linkedin.com/in/aman-sharma-399399185/"
+        },
+        {
+            "id": 3,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1729962144/evolve_web/FinalYear/MrAryanBarghal.jpg",
+            "name": "Aryan Bargal",
+            "insta": "https://www.instagram.com/evolve_nitb/",
+            "linkedin": "https://www.linkedin.com/in/aryan-bargal-48818a246/"
+        }
+    ],
+    "PreFinalYear": [
+        {
+            "id": 0,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736578500/evolve_web/PreFinalYear/AkshatAgarwal.jpg",
+            "name": "Akshat Agarwal",
+            "post": "President",
+            "insta": "https://www.instagram.com/axxhat_04/",
+            "linkedin": "https://www.linkedin.com/in/akshatagarwal01/"
+        },
+        {
+            "id": 1,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1737476640/evolve_web/PreFinalYear/MrAbhinavChawda.jpg",
+            "name": "Abhinav Chawda",
+            "post": "Vice President",
+            "insta": "https://www.instagram.com/abhinavchawda/",
+            "linkedin": "https://www.linkedin.com/in/abhinav-chawda/"
+        },
+        {
+            "id": 2,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736578278/evolve_web/PreFinalYear/AnantSrivastava.jpg",
+            "name": "Anant Srivastava",
+            "post": "Vice President",
+            "insta": "https://www.instagram.com/anantsrivastava23/",
+            "linkedin": "https://www.linkedin.com/in/anant-srivastava-88187a276"
+        },
+        {
+            "id": 3,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099447/evolve_web/PreFinalYear/MrAbhinavSingh.jpg",
+            "name": "Abhinav Singh",
+            "post": "Technical Head",
+            "insta": "https://www.instagram.com/curious_internaut/",
+            "linkedin": "https://www.linkedin.com/in/abhinav-singh-529935223/"
+        },
+        {
+            "id": 3,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099251/evolve_web/PreFinalYear/MrShankarshanDwivedi.jpg",
+            "name": "Shankarshan Dwivedi",
+            "post": "Technical Head",
+            "insta": "https://www.instagram.com/theshankarshandwivedi/",
+            "linkedin": "https://www.linkedin.com/in/shankarshandwivedi/"
+        },
+        {
+            "id": 4,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736576600/evolve_web/PreFinalYear/ShiviMishra.jpg",
+            "name": "Shivi Mishra",
+            "post": "Technical Head",
+            "insta": "https://www.instagram.com/evolve_nitb/",
+            "linkedin": "https://www.linkedin.com/in/shivi-mishra-476b6a262/"
+        },
+        {
+            "id": 5,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736578857/evolve_web/PreFinalYear/SwekshaVats.jpg",
+            "name": "Sweksha Vats",
+            "post": "Project Management Head",
+            "insta": "https://www.instagram.com/svats0311/",
+            "linkedin": "https://www.linkedin.com/in/sweksha-vats-6b471a259/"
+        },
+        {
+            "id": 6,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1737475039/PashupatinathEvolve_ybjx7h.png",
+            "name": "Pashupatinath Soni",
+            "post": "Project Management Head",
+            "insta": "https://www.instagram.com/pashupatinath_soni/",
+            "linkedin": "https://www.linkedin.com/in/pashupatinath-soni-85521a253/"
+        },
+        {
+            "id": 7,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736576861/evolve_web/PreFinalYear/KrishnaGupta.jpg",
+            "name": "Krishna Gupta",
+            "post": "Event Management Head",
+            "insta": "https://www.instagram.com/krishna_gupta_7407/",
+            "linkedin": "https://www.linkedin.com/in/krishna-gupta-b0454624a/"
+        },
+        {
+            "id": 8,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1730099365/evolve_web/PreFinalYear/MrPriyanshuKumar.jpg",
+            "name": "Priyanshu Kumar",
+            "post": "Event Management Head",
+            "insta": "https://www.instagram.com/its__priyanshu003/",
+            "linkedin": "https://www.linkedin.com/in/priyanshu-kumar-3a6412229/"
+        },
+        {
+            "id": 9,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1737475850/PriyanshiEvolve_oq3tbw.png",
+            "name": "Priyanshi Taram",
+            "post": "Design Head",
+            "insta": "https://www.instagram.com/priyanshi_159_/",
+            "linkedin": "https://www.linkedin.com/in/priyanshi-taram-8ab5ba25b/"
+        },
+        {
+            "id": 10,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736577693/evolve_web/PreFinalYear/AnimeshSingh.jpg",
+            "name": "Animesh Singh",
+            "post": "Operation Head",
+            "insta": "https://www.instagram.com/_animesh28/",
+            "linkedin": "https://www.linkedin.com/in/animesh-singh-84ba1a259/"
+        },
+        {
+            "id": 11,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736577004/evolve_web/PreFinalYear/RohitDudve.jpg",
+            "name": "Rohit Dudve",
+            "post": "Operation Head",
+            "insta": "https://www.instagram.com/rohit_dudve_24/",
+            "linkedin": "https://www.linkedin.com/in/rohit-dudve-0184a3307/"
+        },
+        {
+            "id": 12,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736576020/evolve_web/PreFinalYear/MrRKYadav.jpg",
+            "name": "Rohit Kumar Yadav",
+            "post": "Logistics & Creative Head",
+            "insta": "https://www.instagram.com/rkyadav08/",
+            "linkedin": "https://www.linkedin.com/in/rohit-kumar-yadav-118874259/"
+        },
+        {
+            "id": 13,
+            "value": 1,
+            "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1736577198/evolve_web/PreFinalYear/SnehalNandurkar.jpg",
+            "name": "Snehal Nandurkar",
+            "post": "Logistics & Creative Head",
+            "insta": "https://www.instagram.com/snehal.n_27/",
+            "linkedin": "https://www.linkedin.com/in/snehal-40a8b82544c62/"
+        }
+    ]
+}
