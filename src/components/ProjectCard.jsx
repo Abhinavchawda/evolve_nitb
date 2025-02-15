@@ -16,7 +16,7 @@ const ProjectCard = ({ image, PName, PDetails }) => {
         <img src={image} alt="project" className="w-full h-64 object-cover rounded-t-3xl" />
 
 
-      <div className="text-center mt-4 p-2 text-3xl font-semibold text-cyan-400 rounded-2xl ">{PName}</div>
+      <div className="text-center mt-4 p-2 pb-12 text-3xl font-semibold text-cyan-400 rounded-2xl ">{PName}</div>
 
       <div    style={{
           scrollbarWidth: 'thin',

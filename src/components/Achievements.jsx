@@ -14,7 +14,7 @@ const Achievements = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 2500,
     responsive: [
@@ -49,7 +49,7 @@ const Achievements = () => {
     <div id="achievements">
       <div className="text-white overflow-hidden">
         <Header title="Achievements" />
-        <div className="mx-5 lg:mx-auto mt-20 max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div className="lg:mx-auto mt-20 max-w-4xl ">
           <Slider {...settings} className="px-7">
             {data.map((d, index) => (
               <div

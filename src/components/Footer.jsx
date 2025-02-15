@@ -32,11 +32,11 @@ function Footer() {
             <div className="mb-4">
               <div className="ml-1 my-4 text-3xl text-[rgb(71,255,47)]">Contact Us</div>
               <ul className="space-y-2">
-                <li className="flex items-center pt-3">
-                  <i className="mr-2" />Akshat Agrawal : +91 79763 55568
-                             </li>
                 <li>
-                  <div className="font-sans mx-1">Abhinav Chawda : +91 95165 10552</div>
+                <div className="font-sans mx-1">Akshat Agarwal : +91 79763 55568</div>
+                </li>
+                <li>
+                <div className="font-sans mx-1">Abhinav Chawda : +91 95165 10552</div>
                 </li>
                 <li>
                   <div className="font-sans mx-1">Anant Srivastava : +91 8542 810385</div>
