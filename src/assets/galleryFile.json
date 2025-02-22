@@ -3,11 +3,13 @@
         "image": "/Gallery/img1.jpg"
     },
     {
+        "image": "/Gallery/group_photo.jpg"
+    },
+   
+    {
         "image": "/About/withDir.jpg"
     },
-    {
-        "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1739464447/evolve_web/gallery/ebibouvbotvb06stppr6.jpg"
-    },
+
     {
         "image": "https://res.cloudinary.com/dpxghbgfa/image/upload/v1739464170/evolve_web/gallery/qwybhwisrxnigtbwwk2l.jpg"
     },
