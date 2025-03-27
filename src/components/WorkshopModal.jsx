@@ -17,17 +17,15 @@ const WorkshopModal = () => {
 
           {/* Animated Title */}
           <h3 className="text-2xl font-bold flex items-center gap-2 animate-pulse [animation-duration:0.8s] text-[rgb(71,255,47)]">
-            🚗 Vehicle Dynamics and EV Design Workshop ⚡
+          The wait is over! 🚀
           </h3>
 
-          <p className="mt-2 text-lg flex items-center gap-2 text-white">
+          {/* <p className="mt-2 text-lg flex items-center gap-2 text-white">
             📍 MANIT Bhopal | 🗓️ 1st March 2025
-          </p>
+          </p> */}
 
           <p className="mt-4 text-lg font-semibold text-white">
-            Are you passionate about Electric Vehicles and cutting-edge automotive
-            technology? Join us for an exciting hands-on workshop on Vehicle
-            Dynamics & EV Design at MANIT Bhopal!
+          Join Team EVolve, a community built on innovation, collaboration, and ambition. Take on national competitions, explore robotics, ideathons, and real-world tech challenges. With expert mentorship and a team that grows together, you'll gain hands-on experience and shape the future. 🚀
           </p>
         </div>
       </div>

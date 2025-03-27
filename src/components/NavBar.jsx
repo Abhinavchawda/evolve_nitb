@@ -35,7 +35,7 @@ const NavBar = () => {
                         <li className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#events'>Events</a></li>
                         <li className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#projects'>Projects</a></li>
                         <li className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#contact'>Contact</a></li>
-                        <li><a href='https://docs.google.com/forms/d/e/1FAIpQLSd29mgbfCC6cuczkPG-wuMGHql35HRtNlcKCRDuJNdAZpCJ4g/viewform?usp=header' target="_blank"  className='bg-[rgb(71,255,47)] text-black cursor-pointer p-2 rounded-xl m-2'>Register Now</a></li> 
+                        {/* <li><a href='https://docs.google.com/forms/d/e/1FAIpQLSd29mgbfCC6cuczkPG-wuMGHql35HRtNlcKCRDuJNdAZpCJ4g/viewform?usp=header' target="_blank"  className='bg-[rgb(71,255,47)] text-black cursor-pointer p-2 rounded-xl m-2'>Register Now</a></li>  */}
                     </ul>
 
                     <ul className='hidden lg:flex items-center gap-3 m-0 p-5 mr-10'>
@@ -44,7 +44,7 @@ const NavBar = () => {
                         <li className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#events'>Events</a></li>
                         <li className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#projects'>Projects</a></li>
                         <li className='rounded-xl font-semibold px-6 py-2 my-1 hover:text-[rgb(71,255,47)] text-center'><a href='#contact'>Contact</a></li>
-                        <li><a  href='https://docs.google.com/forms/d/e/1FAIpQLSd29mgbfCC6cuczkPG-wuMGHql35HRtNlcKCRDuJNdAZpCJ4g/viewform?usp=header' target="_blank" className='bg-[rgb(71,255,47)] text-black cursor-pointer p-2 rounded-xl'>Register Now</a></li> 
+                        {/* <li><a  href='https://docs.google.com/forms/d/e/1FAIpQLSd29mgbfCC6cuczkPG-wuMGHql35HRtNlcKCRDuJNdAZpCJ4g/viewform?usp=header' target="_blank" className='bg-[rgb(71,255,47)] text-black cursor-pointer p-2 rounded-xl'>Register Now</a></li>  */}
                     </ul>
                 </div>
             </div>
